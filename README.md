@@ -9,3 +9,4 @@ I apply two methods to implement the **spatial visualization**,including:
 ## Basemap
 
 ## Mapbox
+[Demo](https://bingohong.github.io/data_news.github.com/China_itangible_cultural_heritage.html)
