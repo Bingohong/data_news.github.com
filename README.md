@@ -20,7 +20,7 @@ There are 4 steps to visualize spatial data through _Basemap_.Proceed as follows
 ## Mapbox
 ###### [Mpabox-Demo](https://bingohong.github.io/data_news.github.com/China_itangible_cultural_heritage.html) in _gh-pages_ Branch
 
-## My work called [**_《时空中的民俗》_**](http://www.dydata.io/article/p/897485299022766080)
-I have no idea about how to deploy _.html page_ at first, so I had to screenshot the interactive map.It presents all aspects of my thinking about the _"Intangible Cultural Heritage"_ theme.
+## My work called [**_《时空中的民俗》_**](http://www.dydata.io/article/p/897485299022766080) in dydata websites.
+I have no idea about how to deploy _.html page_ at first, so I had to screenshot the interactive map.It presents all aspects of my thinking about the _"Intangible Cultural Heritage"_ theme.The interactive map can click _[Mpabox-Demo]_(https://bingohong.github.io/data_news.github.com/China_itangible_cultural_heritage.html).
 
 ### Welcome! share your innovation about spatial visualization.
