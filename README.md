@@ -6,12 +6,15 @@ So don't be strange about the data and diagram.
 I apply two methods to implement the **spatial visualization**,including:
 1. [Basemap](http://matplotlib.org/basemap/):The matplotlib basemap toolkit is a library for plotting 2D data on maps in Python
 2. [Mapbox](https://en.wikipedia.org/wiki/Mapbox):Mapbox is a large provider of custom online maps for websites
+
 ## Basemap
 There are 4 steps to visualize spatial data through _Basemap_.Proceed as follows:
-- **collecting**: the source data comes from the website called _“The intangble cultural heritage in China”_.
-- **preprocessing**：organize source data, delete useless information, simplify data set.
-- **Geocoding**：transform a postal address to a numerical location.
-- **visualizing**：take advantage of Basemap's function, loading _.shp_ file -> initializing map -> adding attributes
+- Step1-**collecting**: the source data comes from the website called _“The intangble cultural heritage in China”_.
+[SOURCE_DATA](data_news.github.com/非遗名录-各批次.xlsx) & [SOURCE_GEO](data_news.github.com/中国34座省会城市坐标.xls)
+- Step2-**preprocessing**：organize source data, delete useless information, simplify data set.
+[PROCESSED_DATA](data_news.github.com/非遗名录-汇总.xlsx)
+- Step3-**Geocoding**：transform a postal address to a numerical location.
+- Step4-**visualizing**：take advantage of Basemap's function, loading _.shp_ file -> initializing map -> adding attributes
 ###### [Basemap-Ipython-Demp](https://github.com/Bingohong/data_news.github.com/tree/Static_Map_Basemap) in _Static_Map_Basemap_ Branch.
 
 ## Mapbox
