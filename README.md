@@ -15,7 +15,7 @@ There are 4 steps to visualize spatial data through _Basemap_.Proceed as follows
 [PROCESSED_DATA](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/%E9%9D%9E%E9%81%97%E5%90%8D%E5%BD%95-%E6%B1%87%E6%80%BB.xlsx)
 - Step3-**Geocoding**：transform a postal address to a numerical location.[GEOCEDING_IPYTHON](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/STEP-3-Geocoding.ipynb)
 - Step4-**visualizing**：take advantage of Basemap's function, loading _.shp_ file -> initializing map -> adding attributes.[VISUALIZING_IPYTHON](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/STEP-4-Visualizing.ipynb)
-###### [Basemap-Ipython-Demp](https://github.com/Bingohong/data_news.github.com/tree/Static_Map_Basemap) in _Static_Map_Basemap_ Branch.
+###### [Basemap-Ipython-Demo](https://github.com/Bingohong/data_news.github.com/tree/Static_Map_Basemap) in _Static_Map_Basemap_ Branch.
 
 ## Mapbox
 ###### [Mapbox-Demo](https://bingohong.github.io/data_news.github.com/China_itangible_cultural_heritage.html) in _gh-pages_ Branch
