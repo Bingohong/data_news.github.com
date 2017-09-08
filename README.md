@@ -13,11 +13,12 @@ There are 4 steps to visualize spatial data through _Basemap_.Proceed as follows
 [_非遗名录-各批次_](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/%E9%9D%9E%E9%81%97%E5%90%8D%E5%BD%95-%E5%90%84%E6%89%B9%E6%AC%A1.xlsx) & [_中国34座省会城市坐标_](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/%E4%B8%AD%E5%9B%BD34%E5%BA%A7%E7%9C%81%E4%BC%9A%E5%9F%8E%E5%B8%82%E5%9D%90%E6%A0%87.xls)
 - Step2-**preprocessing**：organize source data, delete useless information, simplify data set.
 [_非遗名录-汇总_](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/%E9%9D%9E%E9%81%97%E5%90%8D%E5%BD%95-%E6%B1%87%E6%80%BB.xlsx)
-- Step3-**Geocoding**：transform a postal address to a numerical location.[GEOCEDING_IPYTHON](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/STEP-3-Geocoding.ipynb)
-- Step4-**visualizing**：take advantage of Basemap's function, loading _.shp_ file -> initializing map -> adding attributes.[VISUALIZING_IPYTHON](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/STEP-4-Visualizing.ipynb)
+- Step3-**Geocoding**：transform a postal address to a numerical location.[_GEOCEDING_IPYTHON_](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/STEP-3-Geocoding.ipynb)
+- Step4-**visualizing**：take advantage of Basemap's function, loading _.shp_ file -> initializing map -> adding attributes.[_VISUALIZING_IPYTHON_](https://github.com/Bingohong/data_news.github.com/blob/Static_Map_Basemap/STEP-4-Visualizing.ipynb)
 ###### [Basemap-Ipython-Demo](https://github.com/Bingohong/data_news.github.com/tree/Static_Map_Basemap) in _Static_Map_Basemap_ Branch.
 
 ## Mapbox
+You can take advantage of [_mapbox manual_](https://www.mapbox.com/help/studio-manual/) to finish your first map.For all of us, it is sample for us to creat a static map with [_tutorials_](https://www.mapbox.com/help/studio-manual-tutorials/), all you need it just follows the step-to-step.But a interacitve map have to utilize coding script with [_Map GLJS_](https://www.mapbox.com/mapbox-gl-js/api/).My mapbox demo follows:
 ###### [Mapbox-Demo](https://bingohong.github.io/data_news.github.com/China_itangible_cultural_heritage.html) in _gh-pages_ Branch
 
 ## My work called [**_《时空中的民俗》_**](http://www.dydata.io/article/p/897485299022766080) in dydata websites.
