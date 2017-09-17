@@ -1,0 +1,31 @@
+# 地理信息数据可视化
+这篇文章主要目的是分享在参加[_2017年第三届数据新闻比赛_](http://www.dydata.io/article/p/859985004227338240)过程中，实现地理信息数据可视化方法。竞赛网站上我们团队最终的作品名称是[**《时空中的民俗》**](http://www.dydata.io/article/p/897485299022766080)，欢迎大家批评指正。接下来言归正传。
+## 1.前言
+比赛中我们团队先后采用两种方法实现地理信息可视化过程，分别为：
+- [Basemap](http://matplotlib.org/basemap/)：Python常用绘图Matplotlib中负责绘制地图的子包。
+ - 编程实现空间数据可视化
+ - 自定义程度高
+ - 只能制作静态地图
+ - 门槛较高，需了解shp文件、具备python基础
+- [Mapbox](https://en.wikipedia.org/wiki/Mapbox)：国外的一款地图制作及分享工具。
+ - 交互式操作界面实现可视化
+ - 自定义程度高，且“所见即所得”
+ - 完成基础静态地图简单易学
+ - 完成高级交互式地图门槛较高，需前端基础，即基础Javascript、HTML和CSS
+我们团队首先是选择用basemap实现静态地图，再形成最终的作品报告，但制作完成后发觉静态地图形式需要更多的文字阐述主题内容，不如交互式的动态地图使读者更易于自由挖掘信息，因此后期改用Mapbox制作交互式地图。接下来分别详细介绍两种方法。
+## 2.Basemap
+利用Basemap实现数据可视化总结为4个步骤，使用的数据及代码已经布置于个人[github主页](https://github.com/Bingohong/data_news.github.com/tree/Static_Map_Basemap)上，欢迎学习交换建议：
+- Step1-收集数据：数据来源于[中国非物质文化遗产网](http://www.ihchina.cn/)，希望大家多多关注中国非物质文化遗产，传承传统文化。
+- Step2-数据预处理：重新组织源数据，删除无用信息，简化数据。
+- Step3-地理编码：将地址信息转化为数值地理坐标。
+- Step4-可视化实现：利用Basemap函数，依次为加载.shp文件->初始化地图->添加属性->Done!
+
+## 3.Mapbox
+利用Mapbox实现数据可视化过程可利用[官方的Map manual文档](https://www.mapbox.com/help/studio-manual/)，简单地可分为2个步骤，地图源码已布置到[github主页](https://github.com/Bingohong/data_news.github.com/blob/gh-pages/China_itangible_cultural_heritage.html).欢迎学习交换建议：
+- Step1-注册[mapbox](https://www.mapbox.com)账号
+- Step2-静态地图制作：登录Mapbox Studio，可利用交互式界面完成底图选取，添加数据等，具体过程可参考[mapbox tutorials](https://www.mapbox.com/help/studio-manual-tutorials/)
+- Step3-交互式地图制作：根据自身需求，选择[Map GLJS](https://www.mapbox.com/mapbox-gl-js/api/)所列的API完成特定事件的响应动作。
+最终交互式地图作品为[China_itangible_cultural_heritage](https://bingohong.github.io/data_news.github.com/China_itangible_cultural_heritage.html)的HTML文件。
+
+## 4.总结
+对比以上两种方法，Mapbox制作静态地图更为便捷，但受限于其提供的基础底图。反观basemap方法，可直接利用.shp数据完成地图边界的界定显得更为灵活，局限于无法完成交互式操作。最后关于地理信息的可视化方法肯定不局限于以上两种，只是受限于时间，无法对其他方法进行探究。欢迎大家到我专门为数据新闻比赛中地理数据可视化开辟的github仓库[data_news.github.com]](https://github.com/Bingohong/data_news.github.com/tree/master)进行_pull request_！
